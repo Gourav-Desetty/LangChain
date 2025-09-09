@@ -34,7 +34,7 @@ with st.sidebar:
         st.rerun()
 
 
-if "messages" is not st.session_state:
+if "messages" not in st.session_state:
     st.session_state.messages = []
 
 
@@ -70,7 +70,7 @@ if not chain:
 else:
     # Display the chat message
     for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
+        with st.chat_message(message["role"]): 
             st.write(message['content'])
 
     # chat input
