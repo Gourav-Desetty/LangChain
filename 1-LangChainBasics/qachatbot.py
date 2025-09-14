@@ -39,7 +39,6 @@ if "messages" not in st.session_state:
 
 
 # Initialize LLM
-
 @st.cache_resource
 def get_chain(api_key, model_name):
     if not api_key:
