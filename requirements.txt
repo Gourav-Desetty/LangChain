@@ -1,0 +1,15 @@
+langchain
+langgraph
+ipykernel
+python-dotenv
+langchain-groq
+langchain-openai
+langchain-community
+streamlit
+wikipedia
+pypdf
+pymupdf
+
+sentence-transformers
+faiss-cpu
+chromadb
