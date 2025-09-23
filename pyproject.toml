@@ -18,5 +18,6 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.1.0",
     "streamlit>=1.49.1",
+    "typesense>=1.1.1",
     "wikipedia>=1.4.0",
 ]
